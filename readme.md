@@ -26,6 +26,22 @@ This project implements a fine-tuned Matryoshka embedding model based on Nomic A
 - **Projection Layers**: Linear transformations for each Matryoshka dimension
 - **Regression Heads**: Dimension-specific heads for numerical answer prediction
 - **Custom Loss Function**: Improved Matryoshka loss with log scaling and normalization
+## Setup
+
+bash
+
+```bash
+# Clone the repository
+git clone https://github.com/yashk1103/nomic-matryoshka-financial-embeddings.git
+cd nomic-matryoshka-financial-embeddings
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
 
 ## Installation
 
